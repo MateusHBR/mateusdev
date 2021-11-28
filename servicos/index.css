@@ -1,0 +1,54 @@
+section {
+  min-height: 83vh;
+  background-color: #a4a4a4;
+}
+
+section ul.servicos {
+  display: grid;
+  grid-template-areas: auto;
+  grid-template-columns: auto auto auto;
+  padding: 40px 20px;
+  list-style-type: none;
+}
+
+section ul.servicos li .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin:  8px 16px;
+  background-color: #fff;
+  transition: all 0.3s linear 0s;
+}
+
+section ul.servicos li .item img {
+  height: 120px;
+  width: 120px;
+}
+
+section ul.servicos li .item .conteudo h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #202024;
+}
+
+section ul.servicos li .item .conteudo p {
+  font-size: 16px;
+  margin-top: 8px;
+  font-weight: 200;
+  color: #a4a4a4;
+}
+
+section ul.servicos li .item .conteudo p.descricao {
+  font-weight: 500;
+  color: #737380;
+}
+
+section ul.servicos li .item:hover {
+  background-color: #8257e5;
+}
+
+section ul.servicos li .item:hover p, section ul.servicos li .item:hover p.descricao, section ul.servicos li .item:hover h2{
+  color: #fff;
+}
