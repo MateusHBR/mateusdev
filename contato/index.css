@@ -1,0 +1,63 @@
+section {
+  height: 83vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+section form .campo{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+form label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 14px;
+  margin-bottom: 4px;
+}
+
+form textarea {
+  resize: none;
+}
+
+form input, form textarea {
+  outline: unset;
+  padding: 16px;
+  min-width: 300px;
+  border: 1px solid #737380;
+  border-radius: 8px;
+  transition: all 0.3s linear 0s;
+}
+
+form input:focus, form textarea:focus {
+  border: 1px solid #8257e5;
+}
+
+form input[type=submit]{
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffff;
+  background-color:  #737380;
+  transition: all 0.3s linear 0s;
+
+}
+
+form input[type=submit]:hover{
+  background-color:  #8257e5;
+}
+
+section strong {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8257e5;
+}

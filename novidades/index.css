@@ -1,0 +1,13 @@
+section {
+  height: 83vh;
+  background-color: #8257e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section p {
+  margin-left: 10px;
+  font-size: 28px;
+  color: #ffff;
+}
